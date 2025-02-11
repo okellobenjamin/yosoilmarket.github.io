@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="description" content="Okello Benjamin - Computer Science Expert | Full-stack Developer | ICT Educator">
+    <meta name="keywords" content="computer science, software development, ICT education, Uganda, portfolio, teaching">
+    <meta name="author" content="Okello Benjamin">
+    
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https:; script-src 'self' 'unsafe-inline' https:;">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Okello Benjamin - Computer Science Portfolio">
+    <meta property="og:description" content="Expert computer scientist and ICT educator specializing in programming, robotics, and software development">
+    <meta property="og:type" content="website">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="indexstyle.css" as="style">
+    <link rel="preload" href="main.js" as="script">
+    <link rel="preload" href="benja.jpg" as="image">
+    
+    <!-- Async CSS Loading -->
+    <link rel="stylesheet" href="indexstyle.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="indexstyle.css"></noscript>
+    
+    <!-- PWA Support -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ffffff">
+    
+    <title>Okello Benjamin | Computer Science Expert & ICT Educator</title>
+    
+    <!-- Critical CSS Inline -->
+    <style>
+        /* Hide content until CSS loads */
+        .hidden-until-loaded { opacity: 0; transition: opacity 0.3s ease-in; }
+        .loaded { opacity: 1; }
+        
+        /* Basic responsive layout */
+        @media (max-width: 768px) {
+            .hero-container { flex-direction: column; }
+            .projects-grid { grid-template-columns: 1fr; }
+        }
+        
+        /* Content protection */
+        body { 
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    </style>
+</head>
+<body class="hidden-until-loaded">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section with slight modification -->
+              <!-- Sections wrapped in template to prevent content scraping -->
+              <template id="main-content">
+                <section id="home">
+                    <div class="hero-container">
+                        <div class="hero-content">
+                            <h1>Okello Benjamin</h1>
+                            <h2>Computer Science Expert & ICT Educator</h2>
+                            <p>Empowering the next generation through innovative teaching and cutting-edge technology solutions</p>
+                            <div class="cta-buttons">
+                                <a href="#contact" role="button">Hire Me</a>
+                                <a href="#projects" role="button">View My Work</a>
+                            </div>
+                        </div>
+                        <div class="hero-image">
+                            <img src="benja.jpg" alt="Okello Benjamin" class="profile-image" loading="lazy" width="300" height="300">
+                        </div>
+                    </div>
+                </section>
+
+        <!-- About Section with enhanced content -->
+        <section id="about">
+            <h2>About Me</h2>
+            <article>
+                <p>A dedicated ICT educator and software developer with a proven track record in academic and technical roles. At Mbarara University of Science and Technology, I combined my studies with hands-on teaching experience as a Programming and Data Structures teaching assistant. Currently advancing my studies at Uganda Technology and Management University, I bring together technical expertise and educational innovation to prepare students for the digital future. My experience spans from teaching ICT at both O & A levels under the new curriculum to implementing cutting-edge robotics programs.</p>
+            </article>
+            <div class="education">
+                <h3>Education & Teaching Experience</h3>
+                <ul>
+                    <li>
+                        <h4>Uganda Technology and Management University</h4>
+                        <p>Advanced Studies in Computer Science</p>
+                        <p>Current</p>
+                    </li>
+                    <li>
+                        <h4>Mbarara University of Science and Technology</h4>
+                        <p>Bachelor's Degree in Computer Science</p>
+                        <p>Teaching Assistant - Principles of Programming & Data Structures (1.5 years)</p>
+                        <p>Mentored over 200 students in programming fundamentals and advanced concepts</p>
+                    </li>
+                    <li>
+                        <h4>Professional Teaching Experience</h4>
+                        <p>Trinity College Nabbingo - ICT Laboratory Technician (1 year)</p>
+                        <p>• Managed computer laboratory operations and maintenance</p>
+                        <p>• Conducted practical ICT sessions and technical support</p>
+                        <p>Hossana Christian High School - ICT Instructor</p>
+                        <p>• Implemented new lower secondary curriculum for ICT</p>
+                        <p>• Taught both O & A Level students with focus on practical applications</p>
+                        <p>Our Lady of Africa SS Mukono - Robotics Facilitator</p>
+                        <p>• Pioneered the school's first robotics program</p>
+                        <p>• Led hands-on workshops in programming and electronics</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Expertise Section with more detailed skills -->
+        <section id="expertise">
+            <h2>Technical Expertise</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Teaching Domains</h3>
+                    <ul>
+                        <li>Programming Fundamentals</li>
+                        <li>Data Structures & Algorithms</li>
+                        <li>ICT Curriculum Development</li>
+                        <li>Robotics & Electronics</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>Lab Equipment Management</li>
+                        <li>Network Infrastructure</li>
+                        <li>Full-Stack Development</li>
+                        <li>Educational Technology Integration</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming & Tools</h3>
+                    <ul>
+                        <li>Python, Java & JavaScript</li>
+                        <li>STEM Education Tools</li>
+                        <li>Network Diagnostics</li>
+                        <li>Learning Management Systems</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section with more detailed descriptions -->
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Modern ICT Curriculum Implementation</h3>
+                    <p>Led the implementation of the new lower secondary curriculum at Hossana Christian High School, developing practical modules that bridge theoretical knowledge with real-world applications. Created interactive learning materials and assessment tools that improved student engagement and performance.</p>
+                    <ul class="project-tags">
+                        <li>Curriculum Innovation</li>
+                        <li>Practical Assessment</li>
+                        <li>Digital Integration</li>
+                    </ul>
+                </article>
+                <article class="project-card">
+                    <h3>Advanced Robotics Program</h3>
+                    <p>Designed and implemented a comprehensive robotics program at Our Lady of Africa SS Mukono, introducing students to programming, electronics, and engineering principles through hands-on projects. The program culminated in successful student-led robotics demonstrations.</p>
+                    <ul class="project-tags">
+                        <li>Robotics Education</li>
+                        <li>Project-Based Learning</li>
+                        <li>STEM Integration</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section with specific focus -->
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <p>Available for ICT curriculum development, STEM education initiatives, and technical consulting opportunities. Let's work together to enhance technology education in Uganda.</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+            <!-- Rest of the sections... [Content remains exactly the same] -->
+            <!-- Note: All sections from the original HTML remain unchanged, just wrapped in the template -->
+        </template>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" rel="noopener" aria-label="GitHub Profile">GitHub</a>
+                <a href="#" rel="noopener" aria-label="LinkedIn Profile">LinkedIn</a>
+                <a href="#" rel="noopener" aria-label="Twitter Profile">Twitter</a>
+            </div>
+            <p>&copy; 2025 Okello Benjamin. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Optimized JavaScript loading -->
+    <script>
+        // Reveal content when loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Clone and insert template content
+            const template = document.getElementById('main-content');
+            const clone = template.content.cloneNode(true);
+            template.parentNode.insertBefore(clone, template);
+            template.remove();
+            
+            // Show content with fade in
+            document.body.classList.add('loaded');
+            
+            // Initialize lazy loading
+            if ('loading' in HTMLImageElement.prototype) {
+                const images = document.querySelectorAll('img[loading="lazy"]');
+                images.forEach(img => {
+                    img.src = img.src;
+                });
+            }
+        });
+    </script>
+    <script src="main.js" defer></script>
+</body>
+</html>
